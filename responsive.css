@@ -1,0 +1,11 @@
+@media all and (max-width: 840px) {
+    .hometxt2{
+        font-size: 60px;
+    }
+    body {
+        background-image: url('images/back.webp');
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;
+      }
+}

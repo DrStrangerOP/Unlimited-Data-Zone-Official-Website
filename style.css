@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap');
+*{
+    font-family: Anek Latin;
+}
+body {
+    background-image: url('images/back.webp');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+.hometxt{
+    text-align: center;
+    color: white;
+}
+.hometxt2{
+    text-align: center;
+    color: white;
+    font-size: 120px;
+}
+.telebtn{
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(47, 124, 255);
+    width: 200px;
+    height: 50px;
+    border-width: 5px;
+    transition: 1s;
+    color: rgb(47, 124, 255);
+    font-size: 20px;
+}
+.telebtn:hover{
+    width: 220px;
+    background-color: rgb(47, 124, 255);
+    color: white;
+
+}
+.hometxt3{
+    text-align: center;
+    color: white;
+    font-size: 140px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .card{
+    background-color: #ffffff8a;
+    border-radius: 15px;
+}
+
+.card-text{
+    font-size: 11px;
+}
+
+.card-img-top{
+    border-radius: 15px;
+}
+.about{
+    color: white;
+}
+.gslkimg{
+    width: 200px;
+}
+.hometxt3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.news{
+    color: white;
+    background-color: #555;
+}
